@@ -13,7 +13,7 @@ var wrongLettersText = document.getElementById("wrong-letters-text");
 var alert = document.querySelector('.alert');
 var wrongLetter;
     
-//App ramdonly picks a letter
+//App randomly picks a letter
 function ramdonLetter() {
     computerChoice = computerChoices[Math.floor(Math.random() * computerChoices.length)];
     console.log(computerChoice)
