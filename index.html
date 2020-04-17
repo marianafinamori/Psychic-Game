@@ -8,22 +8,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri|Montserrat" rel="stylesheet">
-</head>
-<body>
-    <div class="container">
-    <h2>Guess what letter I'm thinking of</h2>
-
-
-    <p>Wins: <span id="wins-text"></span></p>
-    <p>Losses: <span id="losses-text"></span></p>
-    <p>Guesses Left: <span id="guesses-left-text"></span></p>
-    <p>Your guesses so far:  <span id="wrong-letters-text"></span></p>
-    </div>
-
-
-    <script src="assets/javascript/game.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
     
+</head>
+<body onload="ramdonLetter()">
+    <header>Guess what letter I'm thinking of</header>
+    <div class="alert"></div>    
+    <div id="guesses-left-box">
+        <p class="a">Guesses Left: <span class="a" id="guesses-left-text">10</span></p>
+    </div>
+    <div id="wrong-letters-box">
+        <div>Your guesses so far</div>
+        <div id="wrong-letters-text"></div>
+    </div>
+    <div class="scores-box">
+        <div id="wins-box">
+            <div class="score-word">WINS</div>
+            <div id="wins-text">0</div>
+        </div>
+        <div id="losses-box">
+            <div class="score-word">LOSSES</div>
+            <div id="losses-text">0</div>
+        </div>
+    </div> 
+
+    <script src="assets/javascript/game.js"></script> 
 </body>
 </html>
 
