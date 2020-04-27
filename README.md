@@ -1,6 +1,6 @@
 # Psychic-Game
 OVERVIEW
-In this assignment, students should create a Psychic Game. These app will run in the browser, and feature dynamically updated HTML and CSS powered by JavaScript code.
+In this assignment, students should create a Psychic Game. This app will run in the browser, and feature dynamically updated HTML and CSS powered by JavaScript code.
 
 HOW TO PLAY
 Player types ramdon letters on the key board in order to guess the letter the app ramdonly picked. 
